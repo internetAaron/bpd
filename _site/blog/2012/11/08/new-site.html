@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Bloomington Pediatric Dentistry</title>
+  
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+  
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <!-- Typkit -->
+  <script type="text/javascript" src="//use.typekit.net/sti4yod.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1847571-17']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+</head>
+
+<body>
+
+  
+<hr class="ribbon">
+<div class="header">
+  <div class="row">
+    <div class="wrapper">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/special-needs.html">Special Needs</a></li>
+        <!-- <li><a href="/office.html">Office</a></li> -->
+      </ul>
+
+      <h2><a href="/">
+        <img src="/images/logo-2.png" alt="Bloomington Pediatric Dentistry"></a>
+      </h2>
+
+      <ul>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/smile-baby.html">Smile Baby</a></li>
+        <li><a href="/referring-doctors.html">Referring Doctors</a></li>
+      </ul>
+      <!-- <a href="/title.html">Patient Login</a> -->
+    </div>
+  </div>
+</div>
+
+  	<div class="row">
+		<hr>
+		<div class="two columns"></div>
+		<div class="eight columns">
+			<div class="row">
+				<div class="twelve columns">
+					<h2>New Site</h2>
+
+					<div class="row">
+						<div class="twelve columns">
+							<p>Seems like about every few months I want to redesign my website.  And about once a year I actually make time to do so.  Well that time has come and below I&rsquo;ve outlined a few of the big changes.</p>
+
+<h5>From WordPress to Jekyll</h5>
+
+<p>For my last several sites I&rsquo;ve used Wordpress.  It has been great to use over the years but I&rsquo;m getting to the point where it&rsquo;s just more than I really need.  I&rsquo;m also getting tired of managing updates and all the plugins.</p>
+
+<p><strong>Jekyll</strong> &ndash; After some inspiration from the guys from the <a href="http://shoptalkshow.com/">Shop Talk Show</a> as well as me being much more comfortable using Terminal I decided to give it a go.</p>
+
+<h4>What I like about this change</h4>
+
+<p><strong>Secure and fast</strong> &ndash; With WordPress there are so many security risks.  It seems like I get spam comments on my WordPress site on a daily basis.  If you&rsquo;re WP instance isn&rsquo;t upgraded to the most recent version it&rsquo;s susceptible to getting hacked.  There are also plugin dependencies based on what version you are on. So some plugins might not work on the morst recent version.  It goes on and on.  And let&rsquo;s be real here, this is my personal site so it falls about last in the priority of work so it&rsquo;s tough to keep track of all that.</p>
+
+<p>With Jekyll all of these issues are gone.  Jekyll is a blog-aware, static site generator in Ruby.  So basically it compiles the whole site locally with Ruby magic and serves your static HTML site.  So the only thing you ever push to your server is the static site.</p>
+
+<p><strong>Version Control and Deploying</strong> &ndash; Jekyll integrates with Github Pages.  This not only makes deploying as easy as a git commit, but it automatically integrates version control into your deployments.</p>
+
+<p><strong>Keeping in simple</strong> &ndash; When I say simple, I mean what I like best.  In the end Jekyll sites are HTML/CSS/JS and <a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Designers">Liquid</a>.  Liquid is well documented and easy to understand template syntax.</p>
+
+<p>One last note is that as easy as Jekyll was for me, some designers might not love it as it does require you to use Terminal.</p>
+
+<p><strong>Warning! Warning! I&rsquo;m about to have a soapbox moment</strong> &ndash;
+Most &ldquo;designers&rdquo; will probably imediatly run from Jekyll because the first thing you have to do is open Terminal.  I used to be just like that.  I thought if there wasn&rsquo;t an app with a beautiful UI for something, a designer shouldn&rsquo;t touch it.  But using Terminal opens so many doors. Knowing the simplest commands allows you to do so many awesome things.  I&rsquo;d encourage you to give it a go.  It will allow you to create and contribute to things that you simple can&rsquo;t without it.</p>
+
+<p>Just remember to learn, try and build.  <strong>Learning</strong> and <strong>trying</strong> Terminal will allow you to <strong>build</strong> things you couldn&rsquo;t before.  And that&rsquo;s what it&rsquo;s all about.</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="two columns"></div>
+	</div>
+
+  <div class="footer">
+  <div class="row">
+    <div class="twelve columns">
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="nine columns">
+      <ul>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/community-outreach.html">Community</a></li>
+        <li><a href="/faq.html">FAQ</a></li>
+        <li><a href="">Post Treatment</a></li>
+      </ul>
+    </div>
+    <div class="three columns">
+      <small>Bloomington Pediatric Dentistry</small>
+    </div>
+  </div>
+</div>
+
+  <!-- Included JS Files (Uncompressed) -->
+  <!--
+  
+  <script src="javascripts/modernizr.foundation.js"></script>
+  
+  <script src="javascripts/jquery.js"></script>
+  
+  <script src="javascripts/jquery.foundation.mediaQueryToggle.js"></script>
+  
+  <script src="javascripts/jquery.foundation.reveal.js"></script>
+  
+  <script src="javascripts/jquery.foundation.orbit.js"></script>
+  
+  <script src="javascripts/jquery.foundation.navigation.js"></script>
+  
+  <script src="javascripts/jquery.foundation.buttons.js"></script>
+  
+  <script src="javascripts/jquery.foundation.tabs.js"></script>
+  
+  <script src="javascripts/jquery.foundation.forms.js"></script>
+  
+  <script src="javascripts/jquery.foundation.tooltips.js"></script>
+  
+  <script src="javascripts/jquery.foundation.accordion.js"></script>
+  
+  <script src="javascripts/jquery.placeholder.js"></script>
+  
+  <script src="javascripts/jquery.foundation.alerts.js"></script>
+  
+  -->
+  
+  <!-- Included JS Files (Compressed) -->
+  <script src="javascripts/foundation.min.js"></script>
+  
+  <!-- Initialize JS Plugins -->
+  <script src="javascripts/app.js"></script>
+
+  <!-- Fancybox -->
+  <script src="javascripts/jquery.fancybox.pack.js"></script>
+  <link rel="stylesheet" href="stylesheets/jquery.fancybox.css">
+  
+  <script>
+    $(document).ready(function() {
+
+      $(".fancybox").fancybox();
+
+      
+      $(".various").fancybox({
+        maxWidth  : 800,
+        maxHeight : 600,
+        fitToView : false,
+        width   : '70%',
+        height    : '70%',
+        autoSize  : false,
+        closeClick  : false,
+        openEffect  : 'none',
+        closeEffect : 'none'
+      });
+
+    });
+  </script>
+
+</body>
+</html>

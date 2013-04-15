@@ -1,0 +1,29 @@
+---
+layout: post
+title: New Site
+date: November 8, 2012
+--- 
+
+Seems like about every few months I want to redesign my website.  And about once a year I actually make time to do so.  Well that time has come and below I've outlined a few of the big changes.
+
+#####From WordPress to Jekyll
+For my last several sites I've used Wordpress.  It has been great to use over the years but I'm getting to the point where it's just more than I really need.  I'm also getting tired of managing updates and all the plugins.
+
+**Jekyll** - After some inspiration from the guys from the [Shop Talk Show](http://shoptalkshow.com/) as well as me being much more comfortable using Terminal I decided to give it a go.  
+
+####What I like about this change
+
+**Secure and fast** - With WordPress there are so many security risks.  It seems like I get spam comments on my WordPress site on a daily basis.  If you're WP instance isn't upgraded to the most recent version it's susceptible to getting hacked.  There are also plugin dependencies based on what version you are on. So some plugins might not work on the morst recent version.  It goes on and on.  And let's be real here, this is my personal site so it falls about last in the priority of work so it's tough to keep track of all that.  
+
+With Jekyll all of these issues are gone.  Jekyll is a blog-aware, static site generator in Ruby.  So basically it compiles the whole site locally with Ruby magic and serves your static HTML site.  So the only thing you ever push to your server is the static site.
+
+**Version Control and Deploying** - Jekyll integrates with Github Pages.  This not only makes deploying as easy as a git commit, but it automatically integrates version control into your deployments.
+
+**Keeping in simple** - When I say simple, I mean what I like best.  In the end Jekyll sites are HTML/CSS/JS and [Liquid](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers).  Liquid is well documented and easy to understand template syntax.  
+
+One last note is that as easy as Jekyll was for me, some designers might not love it as it does require you to use Terminal.
+
+**Warning! Warning! I'm about to have a soapbox moment** -
+Most "designers" will probably imediatly run from Jekyll because the first thing you have to do is open Terminal.  I used to be just like that.  I thought if there wasn't an app with a beautiful UI for something, a designer shouldn't touch it.  But using Terminal opens so many doors. Knowing the simplest commands allows you to do so many awesome things.  I'd encourage you to give it a go.  It will allow you to create and contribute to things that you simple can't without it.
+
+Just remember to learn, try and build.  **Learning** and **trying** Terminal will allow you to **build** things you couldn't before.  And that's what it's all about.

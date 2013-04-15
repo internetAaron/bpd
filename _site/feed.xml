@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Bloomington Pediatric Dentistry</title>
+ <link href="http://bloomingtonpediatricdentistry.com/feed.xml" rel="self"/>
+ <link href="http://bloomingtonpediatricdentistry.com"/>
+ <updated>2013-04-14T22:25:50-04:00</updated>
+ <id>http://bloomingtonpediatricdentistry.com</id>
+ <author>
+   <name>Edward Hyde</name>
+   <email>fake@mijingo.com</email>
+ </author>
+
+ 
+ 	<entry>
+ 		<title>New Site</title>
+ 		<link href="http://bloomingtonpediatricdentistry.com/blog/2012/11/08/new-site.html"/>
+ 		<updated>2012-11-08T00:00:00-05:00</updated>
+ 		<id>http://bloomingtonpediatricdentistry.com/blog/2012/11/08/new-site</id>
+ 		<content type="html">&lt;p&gt;Seems like about every few months I want to redesign my website.  And about once a year I actually make time to do so.  Well that time has come and below I&amp;rsquo;ve outlined a few of the big changes.&lt;/p&gt;
+
+&lt;h5&gt;From WordPress to Jekyll&lt;/h5&gt;
+
+&lt;p&gt;For my last several sites I&amp;rsquo;ve used Wordpress.  It has been great to use over the years but I&amp;rsquo;m getting to the point where it&amp;rsquo;s just more than I really need.  I&amp;rsquo;m also getting tired of managing updates and all the plugins.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Jekyll&lt;/strong&gt; &amp;ndash; After some inspiration from the guys from the &lt;a href=&quot;http://shoptalkshow.com/&quot;&gt;Shop Talk Show&lt;/a&gt; as well as me being much more comfortable using Terminal I decided to give it a go.&lt;/p&gt;
+
+&lt;h4&gt;What I like about this change&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Secure and fast&lt;/strong&gt; &amp;ndash; With WordPress there are so many security risks.  It seems like I get spam comments on my WordPress site on a daily basis.  If you&amp;rsquo;re WP instance isn&amp;rsquo;t upgraded to the most recent version it&amp;rsquo;s susceptible to getting hacked.  There are also plugin dependencies based on what version you are on. So some plugins might not work on the morst recent version.  It goes on and on.  And let&amp;rsquo;s be real here, this is my personal site so it falls about last in the priority of work so it&amp;rsquo;s tough to keep track of all that.&lt;/p&gt;
+
+&lt;p&gt;With Jekyll all of these issues are gone.  Jekyll is a blog-aware, static site generator in Ruby.  So basically it compiles the whole site locally with Ruby magic and serves your static HTML site.  So the only thing you ever push to your server is the static site.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Version Control and Deploying&lt;/strong&gt; &amp;ndash; Jekyll integrates with Github Pages.  This not only makes deploying as easy as a git commit, but it automatically integrates version control into your deployments.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Keeping in simple&lt;/strong&gt; &amp;ndash; When I say simple, I mean what I like best.  In the end Jekyll sites are HTML/CSS/JS and &lt;a href=&quot;https://github.com/Shopify/liquid/wiki/Liquid-for-Designers&quot;&gt;Liquid&lt;/a&gt;.  Liquid is well documented and easy to understand template syntax.&lt;/p&gt;
+
+&lt;p&gt;One last note is that as easy as Jekyll was for me, some designers might not love it as it does require you to use Terminal.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Warning! Warning! I&amp;rsquo;m about to have a soapbox moment&lt;/strong&gt; &amp;ndash;
+Most &amp;ldquo;designers&amp;rdquo; will probably imediatly run from Jekyll because the first thing you have to do is open Terminal.  I used to be just like that.  I thought if there wasn&amp;rsquo;t an app with a beautiful UI for something, a designer shouldn&amp;rsquo;t touch it.  But using Terminal opens so many doors. Knowing the simplest commands allows you to do so many awesome things.  I&amp;rsquo;d encourage you to give it a go.  It will allow you to create and contribute to things that you simple can&amp;rsquo;t without it.&lt;/p&gt;
+
+&lt;p&gt;Just remember to learn, try and build.  &lt;strong&gt;Learning&lt;/strong&gt; and &lt;strong&gt;trying&lt;/strong&gt; Terminal will allow you to &lt;strong&gt;build&lt;/strong&gt; things you couldn&amp;rsquo;t before.  And that&amp;rsquo;s what it&amp;rsquo;s all about.&lt;/p&gt;
+</content>
+ 	</entry>
+ 
+ 	<entry>
+ 		<title>Early Stage Styling Done Just Right</title>
+ 		<link href="http://bloomingtonpediatricdentistry.com/blog/2012/05/12/style-tiles.html"/>
+ 		<updated>2012-05-12T00:00:00-04:00</updated>
+ 		<id>http://bloomingtonpediatricdentistry.com/blog/2012/05/12/style-tiles</id>
+ 		<content type="html">&lt;p&gt; Many times stakeholders or clients are more concerned with logos, colors and fonts.  When the main focus of the design process should be on workflows, content and wireframes they are more concerned with the look and feel.&lt;/p&gt;
+
+&lt;p&gt;Most often you’ll go ahead and open photoshop and style the crap out of your wireframes.  This is fine, because sometimes you don&amp;rsquo;t have any other options, but most likely this will slow down your wire framing.  When wire framing all focus should be put on layout, content, workflows and UX.  If you’re in photoshop worrying about what color that button should be or how much shadow to put on that container the thought being put into workflows, content and UX will most definitely suffer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://f.cl.ly/items/400t3n1Q0q0A2t2a3V1m/Style%20Tiles%20Just%20right.png&quot; alt=&quot;Just Right&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Although I wasn’t able to go to ConvergeSE this year, I did keep a close eye on my Twitter stream during the conference.  There were several gems that came through the stream and one of those was Style Tiles.  Style Tiles allows you to present interface choices without making the investment in multiple photoshop mockups.&lt;/p&gt;
+
+&lt;p&gt;As the put in on their site.  “Style tiles are for when a moodboard is too vague and a comp is too literal.”  To me, this is the best of both worlds.  Appropriate focus can be put on layout, content, workflows and UX when working on the wireframes because you can put all visual elements in the Style Tile.
+&lt;img src=&quot;http://f.cl.ly/items/3R2k1v1H1n0V062x3V3l/Image%202012.11.06%2010:46:57%20PM.png&quot; alt=&quot;Example Style Tile&quot;&gt;
+What could be included in a style tile?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Logo&lt;/li&gt;
+&lt;li&gt;Colors&lt;/li&gt;
+&lt;li&gt;Image treatment&lt;/li&gt;
+&lt;li&gt;Fonts&lt;/li&gt;
+&lt;li&gt;Textures&lt;/li&gt;
+&lt;li&gt;Buttons&lt;/li&gt;
+&lt;li&gt;Links&lt;/li&gt;
+&lt;li&gt;Containers&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Clients and stakeholders will always be excited about the visual style of the site you’ll be building for them.  They should be.  That’s why they are having you design their product, because your a kick ass designer.  So make sure neither deliverable is neglected.  Give them a well thought out wireframes and the beautiful style tiles.&lt;/p&gt;
+</content>
+ 	</entry>
+ 
+
+</feed>

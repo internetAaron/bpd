@@ -1,0 +1,11 @@
+site_name: 'Bloomington Pediatric Dentistry'
+site_url: 'http://bloomingtonpediatricdentistry.com'
+auto: --auto
+markdown: rdiscount
+rdiscount:
+    extensions: [smart]
+pagination: true
+paginate: 3
+
+paginate_base: "blog" # Puts all pagination folders in the "blog" dir, e.g. "/blog/page2"
+paginate_index: "blog/index.html" # Paginates using the specified file
