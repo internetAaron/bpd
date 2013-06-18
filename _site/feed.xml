@@ -4,7 +4,7 @@
  <title>Bloomington Pediatric Dentistry</title>
  <link href="http://bloomingtonpediatricdentistry.com/feed.xml" rel="self"/>
  <link href="http://bloomingtonpediatricdentistry.com"/>
- <updated>2013-04-14T22:25:50-04:00</updated>
+ <updated>2013-06-18T13:11:32-04:00</updated>
  <id>http://bloomingtonpediatricdentistry.com</id>
  <author>
    <name>Edward Hyde</name>
@@ -13,67 +13,104 @@
 
  
  	<entry>
- 		<title>New Site</title>
- 		<link href="http://bloomingtonpediatricdentistry.com/blog/2012/11/08/new-site.html"/>
- 		<updated>2012-11-08T00:00:00-05:00</updated>
- 		<id>http://bloomingtonpediatricdentistry.com/blog/2012/11/08/new-site</id>
- 		<content type="html">&lt;p&gt;Seems like about every few months I want to redesign my website.  And about once a year I actually make time to do so.  Well that time has come and below I&amp;rsquo;ve outlined a few of the big changes.&lt;/p&gt;
+ 		<title>Diet Coke or Orange Juice</title>
+ 		<link href="http://bloomingtonpediatricdentistry.com/blog/2013/06/18/orangejuice.html"/>
+ 		<updated>2013-06-18T00:00:00-04:00</updated>
+ 		<id>http://bloomingtonpediatricdentistry.com/blog/2013/06/18/orangejuice</id>
+ 		<content type="html">&lt;p&gt;I hope everyone was able to support National Doughnut Day last Friday.  I did my best.  With the latest east coast craze of the cronut to Dunkins glazed donut breakfast sandwich, why can we not just keep a little tradition and tweak the classics.&lt;/p&gt;
 
-&lt;h5&gt;From WordPress to Jekyll&lt;/h5&gt;
-
-&lt;p&gt;For my last several sites I&amp;rsquo;ve used Wordpress.  It has been great to use over the years but I&amp;rsquo;m getting to the point where it&amp;rsquo;s just more than I really need.  I&amp;rsquo;m also getting tired of managing updates and all the plugins.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Jekyll&lt;/strong&gt; &amp;ndash; After some inspiration from the guys from the &lt;a href=&quot;http://shoptalkshow.com/&quot;&gt;Shop Talk Show&lt;/a&gt; as well as me being much more comfortable using Terminal I decided to give it a go.&lt;/p&gt;
-
-&lt;h4&gt;What I like about this change&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;Secure and fast&lt;/strong&gt; &amp;ndash; With WordPress there are so many security risks.  It seems like I get spam comments on my WordPress site on a daily basis.  If you&amp;rsquo;re WP instance isn&amp;rsquo;t upgraded to the most recent version it&amp;rsquo;s susceptible to getting hacked.  There are also plugin dependencies based on what version you are on. So some plugins might not work on the morst recent version.  It goes on and on.  And let&amp;rsquo;s be real here, this is my personal site so it falls about last in the priority of work so it&amp;rsquo;s tough to keep track of all that.&lt;/p&gt;
-
-&lt;p&gt;With Jekyll all of these issues are gone.  Jekyll is a blog-aware, static site generator in Ruby.  So basically it compiles the whole site locally with Ruby magic and serves your static HTML site.  So the only thing you ever push to your server is the static site.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Version Control and Deploying&lt;/strong&gt; &amp;ndash; Jekyll integrates with Github Pages.  This not only makes deploying as easy as a git commit, but it automatically integrates version control into your deployments.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Keeping in simple&lt;/strong&gt; &amp;ndash; When I say simple, I mean what I like best.  In the end Jekyll sites are HTML/CSS/JS and &lt;a href=&quot;https://github.com/Shopify/liquid/wiki/Liquid-for-Designers&quot;&gt;Liquid&lt;/a&gt;.  Liquid is well documented and easy to understand template syntax.&lt;/p&gt;
-
-&lt;p&gt;One last note is that as easy as Jekyll was for me, some designers might not love it as it does require you to use Terminal.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Warning! Warning! I&amp;rsquo;m about to have a soapbox moment&lt;/strong&gt; &amp;ndash;
-Most &amp;ldquo;designers&amp;rdquo; will probably imediatly run from Jekyll because the first thing you have to do is open Terminal.  I used to be just like that.  I thought if there wasn&amp;rsquo;t an app with a beautiful UI for something, a designer shouldn&amp;rsquo;t touch it.  But using Terminal opens so many doors. Knowing the simplest commands allows you to do so many awesome things.  I&amp;rsquo;d encourage you to give it a go.  It will allow you to create and contribute to things that you simple can&amp;rsquo;t without it.&lt;/p&gt;
-
-&lt;p&gt;Just remember to learn, try and build.  &lt;strong&gt;Learning&lt;/strong&gt; and &lt;strong&gt;trying&lt;/strong&gt; Terminal will allow you to &lt;strong&gt;build&lt;/strong&gt; things you couldn&amp;rsquo;t before.  And that&amp;rsquo;s what it&amp;rsquo;s all about.&lt;/p&gt;
+&lt;p&gt;My latest dilemma and “huh” moment occurred recently when the doughnut aficionado in training at my house asked for doughnut holes and diet coke for breakfast.  I said you need something a little healthier than diet coke, how about orange juice.  Sold.  Afterwards I began to think about the sugar content in the orange juice.  Was it better to give more sugar and acidity of orange juice or no sugar, acidity, and fake sweeteners of the diet coke?  Either way I won points with the serve yourself no limit on doughnut holes breakfast.  Don’t worry; we threw in some fruits and veggies at lunch.&lt;/p&gt;
 </content>
  	</entry>
  
  	<entry>
- 		<title>Early Stage Styling Done Just Right</title>
- 		<link href="http://bloomingtonpediatricdentistry.com/blog/2012/05/12/style-tiles.html"/>
- 		<updated>2012-05-12T00:00:00-04:00</updated>
- 		<id>http://bloomingtonpediatricdentistry.com/blog/2012/05/12/style-tiles</id>
- 		<content type="html">&lt;p&gt; Many times stakeholders or clients are more concerned with logos, colors and fonts.  When the main focus of the design process should be on workflows, content and wireframes they are more concerned with the look and feel.&lt;/p&gt;
+ 		<title>Donuts</title>
+ 		<link href="http://bloomingtonpediatricdentistry.com/blog/2013/05/19/donuts.html"/>
+ 		<updated>2013-05-19T00:00:00-04:00</updated>
+ 		<id>http://bloomingtonpediatricdentistry.com/blog/2013/05/19/donuts</id>
+ 		<content type="html">&lt;p&gt;An episode of Duck Dynasty where the boys decide to have a doughnut eating contest made me think about my most enjoyable treat, doughnuts.  Doughnuts are one of my favorite treats.  Breakfast, lunch, anytime of the day, a doughnut puts a smile on my face.  But you ask, why is a dentist writing about doughnuts.  Aren’t you supposed to be the anti -sugar guy and campaign against all sugary product’s. Yes and no.&lt;/p&gt;
 
-&lt;p&gt;Most often you’ll go ahead and open photoshop and style the crap out of your wireframes.  This is fine, because sometimes you don&amp;rsquo;t have any other options, but most likely this will slow down your wire framing.  When wire framing all focus should be put on layout, content, workflows and UX.  If you’re in photoshop worrying about what color that button should be or how much shadow to put on that container the thought being put into workflows, content and UX will most definitely suffer.&lt;/p&gt;
+&lt;p&gt;In this series, we will look at the do’s and dont’s of sugar/carbohydrates in the diet and how it affects those pearly whites.  We will look at amounts and times of sugar exposures.  I know Si put down an amazing amount of doughnuts in the contest, I’m not sure about is cholesterol level, but he did put them down in a very timely manner.  My liking for doughnuts came at an early age.  Growing up in Edinburgh, IN, we traveled to Columbus for most everything.  The one bonus to the trip was the Sap’s donut factory.  I remember rolling down the car window just before the factory and hoping that my parents would drive slow enough to fill the car with that great smell of doughnuts, then roll up the windows real fast to trap that glorious smell.  It just occurred to me, what is the correct way to spell donut, I mean doughnut.  Anyway, don’t forget to mark your calendars for June 7, 2013.  That is National Doughnut Day.&lt;/p&gt;
+</content>
+ 	</entry>
+ 
+ 	<entry>
+ 		<title>Owen County Head Start Field Trip Day to Bloomington Pediatric Dentistry!</title>
+ 		<link href="http://bloomingtonpediatricdentistry.com/blog/2013/05/03/field-trip.html"/>
+ 		<updated>2013-05-03T00:00:00-04:00</updated>
+ 		<id>http://bloomingtonpediatricdentistry.com/blog/2013/05/03/field-trip</id>
+ 		<content type="html">&lt;p&gt;&lt;img src=&quot;/images/blog/morgan-co-bus.jpg&quot; alt=&quot;&quot; class=&quot;right&quot;&gt;Owen County Head Start had a field trip day to Bloomington Pediatric Dentistry! Our staff was extremely excited when Owen County Head Start reached out to us with interest of visiting.  This was our first “office field trip!”   When they arrived we let them explore in our castle waiting room.  Our castle walls contain a series of ISPY images.  The children absolutely loved being able to find all of our hidden items!  The children then took a short tour throughout our office.  They were able to see where children get their teeth cleaned as well as our arctic room.  As the children walked around they were able to talk to some of our staff members and ask questions.  From there, they were guided to our presentation area.  Natalie, our infant dental educator, performed  an informative presentation covering oral hygiene.  &lt;img src=&quot;/images/blog/natalie-teaching.jpg&quot; alt=&quot;&quot; class=&quot;left&quot;&gt;She provided them with great tips, ideas, and facts that would be  helpful for the children to understand the importance of good oral hygiene!  The children did a wonderful job and we enjoyed having them at Bloomington Pediatric Dentistry very much!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://f.cl.ly/items/400t3n1Q0q0A2t2a3V1m/Style%20Tiles%20Just%20right.png&quot; alt=&quot;Just Right&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;Although I wasn’t able to go to ConvergeSE this year, I did keep a close eye on my Twitter stream during the conference.  There were several gems that came through the stream and one of those was Style Tiles.  Style Tiles allows you to present interface choices without making the investment in multiple photoshop mockups.&lt;/p&gt;
-
-&lt;p&gt;As the put in on their site.  “Style tiles are for when a moodboard is too vague and a comp is too literal.”  To me, this is the best of both worlds.  Appropriate focus can be put on layout, content, workflows and UX when working on the wireframes because you can put all visual elements in the Style Tile.
-&lt;img src=&quot;http://f.cl.ly/items/3R2k1v1H1n0V062x3V3l/Image%202012.11.06%2010:46:57%20PM.png&quot; alt=&quot;Example Style Tile&quot;&gt;
-What could be included in a style tile?&lt;/p&gt;
+&lt;p&gt; If taking a field trip to our office is something that you think your children based company might be interested in please call our office at 812.355.0855 and ask for Nicole.  We would love to have you!  Keep an eye out for blog postings about our new FREE educational classes for pregnant women and parents of school aged children covering oral hygiene!  Have a wonderful day!&lt;/p&gt;
+</content>
+ 	</entry>
+ 
+ 	<entry>
+ 		<title>February is Dental Health Month!</title>
+ 		<link href="http://bloomingtonpediatricdentistry.com/blog/2013/01/15/feb-dental-health-month.html"/>
+ 		<updated>2013-01-15T00:00:00-05:00</updated>
+ 		<id>http://bloomingtonpediatricdentistry.com/blog/2013/01/15/feb-dental-health-month</id>
+ 		<content type="html">&lt;p&gt;February is Dental Health Month and Bloomington Pediatric Dentistry is getting out in our community to spread the word about oral hygiene! Our office goal for the month of February is to have an oral health presentation scheduled EVERY day! As of today we only have three openings left to schedule! Below is a list of areas we plan on visiting:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Logo&lt;/li&gt;
-&lt;li&gt;Colors&lt;/li&gt;
-&lt;li&gt;Image treatment&lt;/li&gt;
-&lt;li&gt;Fonts&lt;/li&gt;
-&lt;li&gt;Textures&lt;/li&gt;
-&lt;li&gt;Buttons&lt;/li&gt;
-&lt;li&gt;Links&lt;/li&gt;
-&lt;li&gt;Containers&lt;/li&gt;
+&lt;li&gt;Bloomington Head Start&lt;/li&gt;
+&lt;li&gt;Penny Lane East&lt;/li&gt;
+&lt;li&gt;Penny Lane West&lt;/li&gt;
+&lt;li&gt;Harmony High School&lt;/li&gt;
+&lt;li&gt;Ellettsville Primary School&lt;/li&gt;
+&lt;li&gt;The Prep School&lt;/li&gt;
+&lt;li&gt;The Prep School Academy&lt;/li&gt;
+&lt;li&gt;Kids Club&lt;/li&gt;
+&lt;li&gt;Springville School&lt;/li&gt;
 &lt;/ul&gt;
 
 
-&lt;p&gt;Clients and stakeholders will always be excited about the visual style of the site you’ll be building for them.  They should be.  That’s why they are having you design their product, because your a kick ass designer.  So make sure neither deliverable is neglected.  Give them a well thought out wireframes and the beautiful style tiles.&lt;/p&gt;
+&lt;p&gt;If you are interested in our office coming to your child’s school/daycare or your work please contact our office at &lt;strong&gt;812.355.0855&lt;/strong&gt; and ask for &lt;strong&gt;Nicole&lt;/strong&gt;.&lt;/p&gt;
+</content>
+ 	</entry>
+ 
+ 	<entry>
+ 		<title>Your unborn baby relies on your oral hygiene</title>
+ 		<link href="http://bloomingtonpediatricdentistry.com/blog/2012/07/20/unborn-baby.html"/>
+ 		<updated>2012-07-20T00:00:00-04:00</updated>
+ 		<id>http://bloomingtonpediatricdentistry.com/blog/2012/07/20/unborn-baby</id>
+ 		<content type="html">&lt;h4&gt;Dental decay is an infectious disease that is almost completely preventable.&lt;/h4&gt;
+
+&lt;p&gt;The prevention of Early Childhood Caries, also known as cavities, begins before and right after your baby is born. Mothers or caregivers that have high levels of Streptococcus Mutans have a greater chance of passing the bacteria to their child. Streptococcus Mutans, otherwise known as SM, is a bacteria that lives in the mouth and causes tooth decay. It produces plaque and acids that break down the tooth enamel and causes decay.&lt;/p&gt;
+
+&lt;p&gt;SM can be given from the caregiver to the child. Lowering the levels of SM in the expectant mother by visiting the dentist and practicing good oral hygiene can prevent or delay the development of decay for the child. SM can also be transmitted to the child from family members or groups such as daycare by saliva sharing activities. Eliminating all saliva sharing activities, such as cup sharing and sharing of mouthed toys, may help decrease the infant or toddler’s chances of getting the bacteria SM.&lt;/p&gt;
+
+&lt;p&gt;Studies show that certain daily activities can contribute to your child’s rate of decay. Nicotine use promotes the growth of the bacteria that can cause decay. When mothers or others who smoke kiss children, they may pass on these bacteria. It is very important to live in a smoke free environment not only to protect your child’s teeth but also to protect overall health.&lt;/p&gt;
+
+&lt;p&gt;All expecting women should be advised to love good nutrition during their third trimester. There is considerable evidence that malnutrition during the prenatal period causes hypoplasia. Hypoplasia is a decrease in the amount of enamel formed, resulting in pits and grooves of the enamel. This type of defect may cause tooth sensitivity, may be unsightly, or may lead to dental cavities.&lt;/p&gt;
+
+&lt;p&gt;Oral Health education provided by a dentist or other health care provider can help prevent these issues. In addition, every infant should receive an oral health risk assessment by six months of age.&lt;/p&gt;
+
+&lt;p&gt;By one year of age parents or caregivers should establish a dental home. It is extremely important to find a dentist that you and your child feel comfortable with.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions or would like more information on oral health counseling or our office, please contact Nicole at Bloomington Pediatric Dentistry 812.355.0855.&lt;/p&gt;
+
+&lt;h3&gt;Infant Oral Care&lt;/h3&gt;
+
+&lt;h4&gt;0-3 months&lt;/h4&gt;
+
+&lt;p&gt;Good oral hygiene starts the day your baby is born! It is recommended that baby’s mouth be cleaned regularly from day one to get baby accustomed to a regular teeth cleaning routine. Use a wet wash cloth and gently rub baby’s gums and clean the top surface of their tongue. This can help keep your baby’s mouth clean and help avoid infections such as thrush.&lt;/p&gt;
+
+&lt;h4&gt;3-6 months&lt;/h4&gt;
+
+&lt;p&gt;Continue to clean baby’s mouth with a wet wash cloth. If your baby is teething you might notice him being more irritable, drooling excessively, and putting his fingers or hand in his mouth. Cutting teeth can be an uncomfortable process for your baby. You can gently massage gums or use teething toys to soothe their pain. Be cautious with using any gels that relieve teething pain by numbing the mouth; your child could bite their cheek or tongue if they can’t feel it.&lt;/p&gt;
+
+&lt;h4&gt;6-9 months&lt;/h4&gt;
+
+&lt;p&gt;If the first tooth has erupted continue to use a wet wash cloth to cleanse tooth/teeth and/or introduce a soft bristle toothbrush. Training toothpaste is available for use. It is ideal for babies to use training paste without fluoride until the age of 2. The parent or guardian should be brushing baby’s teeth twice daily; once in the morning and once after the last feeding. After the teeth have been brushed at bedtime water should be the only liquid ingested. Oral health counseling is offered and advised around 6 months of age.&lt;/p&gt;
+
+&lt;h4&gt;9-23 months&lt;/h4&gt;
+
+&lt;p&gt;Use a soft bristle toothbrush with training paste twice daily. Again, brush once in the morning and once after the last feeding. If you cannot see space in-between the teeth you need to introduce floss. Flossing children’s teeth can be a challenge. Floss sticks, which are easy for the parent/guardian to hold, are available at most grocery or drug stores. By 12 months of age you should have a dental home established for your child. Two checkups a year are recommended for good oral health.&lt;/p&gt;
+
+&lt;h4&gt;24 months&lt;/h4&gt;
+
+&lt;p&gt;You can begin to use toothpaste with fluoride twice a day even if your child does not know how to spit. If you limit the amount used to the size of a pea, there are no concerns if all of that is swallowed. Only use toothpaste that has the American Dental Association seal of approval. Never use toothpastes with whiteners or tarter control; these are too strong for your child! It is a good idea to treat fluoride toothpaste like a medicine in your home. Keep it out of a child’s reach and only an adult should dispense it.&lt;/p&gt;
 </content>
  	</entry>
  

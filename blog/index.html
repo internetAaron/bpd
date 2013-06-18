@@ -14,10 +14,10 @@ category: blog
     <div class="post">
       <div class="four columns">
         <h3><a href="{{post.url}}">{{post.title}}</a></h3>
-        <span>{{ post.date | date_to_long_string }}</span>
+        <p><span style="font-size: 0.9em;"><strong>{{ post.date | date_to_long_string }}</strong> - posted by {{ post.postedby }}</span></p>
       </div>
       <div class="eight columns">
-        <p>{{post.content | truncatewords:50}}</p>
+        {{post.content | truncatewords:50}}
       </div>
     </div>
   </div>

@@ -9,3 +9,18 @@ paginate: 3
 
 paginate_base: "blog" # Puts all pagination folders in the "blog" dir, e.g. "/blog/page2"
 paginate_index: "blog/index.html" # Paginates using the specified file
+
+
+navigation:
+- text: Home
+  url: /index.html
+- text: About
+  url: /about.html
+- text: First Visit
+  url: /first-visit.html
+- text: Services
+  url: /services.html
+- text: Smile Baby
+  url: /smile-baby.html
+- text: Special Needs
+  url: /special-needs.html

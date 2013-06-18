@@ -24,7 +24,7 @@ path: /faq
     <hr>
 
     <h3>Primary teeth are important to:</h3>
-    <ul>
+    <ul class="leaf">
       <li><p>Allow for proper chewing and eating</p></li>
       <li><p>Hold space for permanent teeth as they move into the correct position</p></li>
       <li><p>Permit normal development of the jaw bones and muscles</p></li>
@@ -146,3 +146,26 @@ path: /faq
     
   </div>
 </div>
+
+<a href="#" class="go-top">Back to Top</a>
+<!-- JavaScript -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function() {
+    // Show or hide the sticky footer button
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 200) {
+        $('.go-top').fadeIn(200);
+      } else {
+        $('.go-top').fadeOut(200);
+      }
+    });
+    
+    // Animate the scroll to top
+    $('.go-top').click(function(event) {
+      event.preventDefault();
+      
+      $('html, body').animate({scrollTop: 0}, 300);
+    })
+  });
+</script>

@@ -19,14 +19,16 @@
   -->
   
   <!-- Included CSS Files (Compressed) -->
-  <link rel="stylesheet" href="stylesheets/foundation.min.css">
-  <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="/stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="/stylesheets/app.css">
 
   <!-- Typkit -->
   <script type="text/javascript" src="//use.typekit.net/sti4yod.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <script src="javascripts/modernizr.foundation.js"></script>
+  <script src="javascripts/upcoming.js"></script>
+  <script src="javascripts/moment.js"></script>
 
   <!-- IE Fix for HTML5 Tags -->
   <!--[if lt IE 9]>
@@ -36,20 +38,6 @@
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
-  <script type="text/javascript">
-
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-1847571-17']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-  </script>
-
 </head>
 
 <body>
@@ -58,25 +46,59 @@
 <hr class="ribbon">
 <div class="header">
   <div class="row">
-    <div class="wrapper">
-      <ul>
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/special-needs.html">Special Needs</a></li>
-        <!-- <li><a href="/office.html">Office</a></li> -->
-      </ul>
+    <h2><a href="/">
+      <img src="/images/logo-2.png" alt="Bloomington Pediatric Dentistry"></a>
+    </h2>
+    
+      <ul class="navigation">
+        
+          
+          
+            
+          
 
-      <h2><a href="/">
-        <img src="/images/logo-2.png" alt="Bloomington Pediatric Dentistry"></a>
-      </h2>
+          <li class="first current ">
+            <a class="current" href="/index.html">Home</a>
+          </li>
+        
+          
+          
 
-      <ul>
-        <li><a href="/services.html">Services</a></li>
-        <li><a href="/smile-baby.html">Smile Baby</a></li>
-        <li><a href="/referring-doctors.html">Referring Doctors</a></li>
+          <li class="  ">
+            <a class="" href="/about.html">About</a>
+          </li>
+        
+          
+          
+
+          <li class="  ">
+            <a class="" href="/first-visit.html">First Visit</a>
+          </li>
+        
+          
+          
+
+          <li class="  ">
+            <a class="" href="/services.html">Services</a>
+          </li>
+        
+          
+          
+
+          <li class="  ">
+            <a class="" href="/smile-baby.html">Smile Baby</a>
+          </li>
+        
+          
+          
+
+          <li class="  last">
+            <a class="" href="/special-needs.html">Special Needs</a>
+          </li>
+        
       </ul>
-      <!-- <a href="/title.html">Patient Login</a> -->
-    </div>
+    
+    <a href="https://login.sesamecommunications.com/bpd/index.html" class="btn patient-login">Patient Login</a>
   </div>
 </div>
 
@@ -92,13 +114,12 @@
 <div class="services-cta">
   <div class="row">
     <div class="twelve columns">
-      <h5>Our Services</h5>
       <ul>
-        <li><a href="">Preventative</a></li>
-        <li><a href="services.html#restorative">Restorative</a></li>
-        <li><a href="">Sedation</a></li>
-        <li><a href="dental-emergencies.html">Emergency</a></li> 
+        <li><a href="/referring-doctors.html">Referring Doctors</a></li>
+        <li><a href="dental-emergencies.html">Emergency</a></li>
+        <li><a href="community-outreach.html">Community</a></li>
       </ul>
+      <p class="right"><a class="btn" href="patientInfo.html">Patient Information</a></p>
     </div>
   </div>
 </div>
@@ -116,32 +137,27 @@
 </div>
 
 <div class="doctors">
-  <!-- <div class="row">
-    <div class="twelve columns">
-      <h3>Meet the Doctors</h3>
-      <span>All of our doctors are board certafied and IU Riley Hospital trained, top ten hospital in the nation.</span>
-    </div>
-  </div> -->
+
   <div class="row">
     <div class="four columns">
       <a class="various" data-fancybox-type="iframe" href="modal-includes/dr-taylor.html">
         <img src="images/home/taylor.jpg" alt="Dr. Kyle Taylor">
         <h5>Dr. Kyle Taylor</h5>
-        <p>Doctor / Owner</p>
+        <p>Pediatric Dentist/Owner</p>
       </a>
     </div>
     <div class="four columns">
       <a class="various" data-fancybox-type="iframe" href="modal-includes/dr-gierke.html">
         <img src="images/home/gierke.jpg" alt="Dr. Tamara Gierke">
         <h5>Dr. Tamara Gierke</h5>
-        <p>Doctor / Owner</p>
+        <p>Pediatric Dentist/Owner</p>
       </a>
     </div>
     <div class="four columns">
       <a class="various" data-fancybox-type="iframe" href="modal-includes/dr-john.html">
         <img src="images/home/john.jpg" alt="Dr. John Patangan">
         <h5>Dr. John Patangan</h5>
-        <p>Doctor</p>
+        <p>Pediatric Denitst/Associate</p>
       </a>
     </div>
   </div>
@@ -171,20 +187,24 @@
     </div>
   </div>
   <div class="row">
-    <div class="nine columns">
+    <div class="eight columns">
       <ul>
-        <li><a href="/contact.html">Contact</a></li>
         <li><a href="/blog">Blog</a></li>
-        <li><a href="/community-outreach.html">Community</a></li>
         <li><a href="/faq.html">FAQ</a></li>
-        <li><a href="">Post Treatment</a></li>
+        <li><a href="/post-op.html">Post Treatment</a></li>
+        <li><a href="/office.html">Office</a></li>
+        <li><a href="/community-outreach.html">Community</a></li>
+        <li><a href="/referring-doctors.html">Referring Doctors</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        
       </ul>
     </div>
-    <div class="three columns">
-      <small>Bloomington Pediatric Dentistry</small>
+    <div class="four columns">
+      <small class="right">Bloomington Pediatric Dentistry</small>
+      <a class="right" href="https://www.facebook.com/BloomingtonPediatricDentistry"><img src="/images/icons/facebook.png" alt="facebook"></a>
     </div>
   </div>
-</div>
+</div>      
 
   <!-- Included JS Files (Uncompressed) -->
   <!--
@@ -246,6 +266,20 @@
       });
 
     });
+  </script>
+
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1847571-18']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
   </script>
 
 </body>
