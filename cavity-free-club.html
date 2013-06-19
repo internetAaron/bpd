@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<div class="row">
+  <div class="twelve columns">
+    <hr>
+  </div>
+</div>
+
+<div class="row">
+  <div class="eight columns">
+    <h3>Cavity Free Club</h3>
+    <p>We are proud to announce a program that we have in place for our patients that come in for dental cleanings and check-ups! It is our Cavity Free Club!</p>
+    <p>We want our patients to know how proud we are of them for their awesome efforts at home in between dental visits. When they have a great check-up and are cavity free they will be entered into a monthly drawing to win a fantastic prize.</p>
+    <p>Every month we will post the winner on our website and Facebook with a parents permission.</p>
+    <h4>Kids!</h4>
+    <p>Brush twice and day and remember to use floss! Good Luck and we hope you get the chance to be in our Cavity Free Club!</p>
+  </div>
+  <div class="four columns doctors">
+    <h3>Latest Winners!</h3>
+    <hr>
+      <img src="images/cavity-free/aiden.jpg" alt="Aiden">
+      <h5>Aiden</h5>
+      <small>May Cavity Free Winner</small>
+
+  </div>
+</div>
+
+
+<a href="#" class="go-top">Back to Top</a>
+<!-- JavaScript -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function() {
+    // Show or hide the sticky footer button
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 200) {
+        $('.go-top').fadeIn(200);
+      } else {
+        $('.go-top').fadeOut(200);
+      }
+    });
+    
+    // Animate the scroll to top
+    $('.go-top').click(function(event) {
+      event.preventDefault();
+      
+      $('html, body').animate({scrollTop: 0}, 300);
+    })
+  });
+</script>
