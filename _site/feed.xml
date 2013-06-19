@@ -4,7 +4,7 @@
  <title>Bloomington Pediatric Dentistry</title>
  <link href="http://bloomingtonpediatricdentistry.com/feed.xml" rel="self"/>
  <link href="http://bloomingtonpediatricdentistry.com"/>
- <updated>2013-06-18T23:14:51-04:00</updated>
+ <updated>2013-06-18T23:15:38-04:00</updated>
  <id>http://bloomingtonpediatricdentistry.com</id>
  <author>
    <name>Edward Hyde</name>
@@ -30,7 +30,7 @@
  		<id>http://bloomingtonpediatricdentistry.com/blog/2013/06/18/may-cavity-free</id>
  		<content type="html">&lt;p&gt;We&amp;rsquo;re very excited to announce that Aiden is May&amp;rsquo;s Cavity Free Club month of May winner!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/cavity-free/aiden.jpg&quot; alt=&quot;Aiden&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/cavity-free/aiden.jpg&quot; alt=&quot;Aiden&quot;&gt;&lt;/p&gt;
 </content>
  	</entry>
  
