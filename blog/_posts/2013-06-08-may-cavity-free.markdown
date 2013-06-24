@@ -7,4 +7,4 @@ postedby: BPD Team
 
 We're very excited to announce that Aiden is May's Cavity Free Club month of May winner!
 
-<img src="/images/cavity-free/aiden.jpg" alt="Aiden">
+<img src="/images/cavity-free/aiden.jpg" alt="Aiden"> 
