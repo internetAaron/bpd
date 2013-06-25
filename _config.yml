@@ -1,3 +1,7 @@
+safe: true
+lsi: false
+pygments: true
+
 site_name: 'Bloomington Pediatric Dentistry'
 site_url: 'http://bloomingtonpediatricdentistry.com'
 auto: --auto
